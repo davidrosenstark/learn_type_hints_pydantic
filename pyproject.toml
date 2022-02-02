@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythonclean"
+version = "0.1.0"
+description = ""
+authors = ["drosenst <david.rosenstark@intel.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "1.9.0"
+dateparser = "1.1.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "4.0.1"
+yapf = "0.32.0"
+pytest = "6.2.5"
+mypy = "0.910"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
